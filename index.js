@@ -9,6 +9,7 @@ app.use(cors());
 //   response.end('Hello World')
 // })
 app.use(express.json());
+app.use(express.static('build'));
 let notes = [
     {
       id: 1,
